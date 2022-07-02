@@ -1,0 +1,35 @@
+# Anatomia de um elemento HTML
+
+
+
+![Imagem mostrando como funciona a tag P](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics/gato-rabujento-pequeno.png)
+
+
+
+## As principais partes de um elemento são:
+
+1. A **tag de abertura**: Consiste no nome do elemento (no caso, p), envolvido em **parênteses angulares** de abertura e fechamento. Isso demonstra onde o elemento começa, ou onde seu efeito se inicia — nesse caso, onde é o começo do parágrafo.
+2. A **tag de fechamento**: Isso é a mesma coisa que a tag de abertura, exceto que inclui uma barra antes do nome do elemento. Isso demonstra onde o elemento acaba — nesse caso, onde é o fim do parágrafo. Esquecer de incluir uma tag de fechamento é um dos erros mais comuns de iniciantes e pode levar a resultados estranhos.
+3. O **conteúdo**: Esse é o conteúdo do elemento, que nesse caso é apenas texto.
+4. O **elemento**: A tag de abertura, a de fechamento, e o conteúdo formam o elemento.
+
+
+
+Elementos também podem ter **atributos**, que parecem assim:
+
+
+
+![Imagem mostrando elemento na tag P](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics/gato-rabujento-atributo-pequeno.png)
+
+
+
+Atributos contém informação extra sobre o elemento que você não quer que apareça no conteúdo real. Aqui, `class` é o nome do atributo e `editor-note` é o valor do atributo. O atributo `class` permite que você forneça ao elemento um identificador que possa ser usado posteriormente para aplicar ao elemento informações de estilo e outras coisas.
+
+Um atributo sempre deve ter:
+
+1. Um espaço entre ele e o nome do elemento (ou o atributo anterior, se o elemento já tiver um).
+2. O nome do atributo, seguido por um sinal de igual.
+3. Aspas de abertura e fechamento, envolvendo todo o valor do atributo.
+
+###### **Nota**: Valores de atributos simples que não contém espaço em branco ASCII (ou qualquer um dos caracteres `"` `'` ``` `=` `<` `>`) podem permanecer sem aspas, mas é recomendável colocar em todos os valores de atributos, pois isso torna o código mais consistente e compreensível.
+
