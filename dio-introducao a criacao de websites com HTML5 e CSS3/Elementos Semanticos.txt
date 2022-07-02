@@ -1,0 +1,46 @@
+![image-20220702200308870](C:\Users\msuli\AppData\Roaming\Typora\typora-user-images\image-20220702200308870.png)
+
+
+
+# Semântica em HTML 
+
+
+
+Em HTML o elemento semântico fornece a representação ou o significado do conteúdo presente nesses documentos HTML tornando-o mais claro tanto para programadores quanto para browsers e outras engines que processam essa informação.
+
+Alguns dos benefícios de se escrever a marcação semântica:
+
+- Os mecanismos de pesquisa considerarão seu conteúdo como  palavras-chave importantes para influenciar os rankings de pesquisa da  página (see [SEO](https://developer.mozilla.org/pt-BR/docs/Glossary/SEO))
+- Os leitores de tela podem usá-lo como uma placa de sinalização para ajudar usuários com deficiência visual a navegar em uma página
+- Encontrar blocos de código importantes é significativamente mais fácil do que procurar `div`s sem fim, com ou sem classes de semântica ou de nome espaçado.
+- Sugira ao desenvolvedor o tipo de dados que serão preenchidos
+- A nomeação semântica reflete a nomeação adequada do elemento/componente personalizado
+
+Ao abordar qual marcação usar, pergunte a si mesmo: "Quais elementos  melhor descrevem/representam os dados que vou preencher?" Por exemplo, é uma lista de dados? ordenado, não ordenado? é um artigo com seções e  uma parte de informações relacionadas? lista as definições? é uma figura ou imagem que precisa de legenda? deve ter um cabeçalho e rodapé, além  do cabeçalho e rodapé em todo o site? etc.
+
+Abaixo estão alguns dos elementos semânticos que iremos trabalhar. Lembrando que temos 100 elementos semânticos disponíveis:
+
+- `<section>` 
+
+O **elemento HTML `<section>`** representa uma seção genérica contida em um documento HTML, geralmente com um  título, quando não existir um elemento semântico mais específico para  representá-lo.
+
+- `<header>`
+
+O **elemento HTML** **`<header>`** representa um grupo de suporte introdutório ou navegacional. Pode conter alguns  elementos de cabeçalho mas também outros elementos como um logo, seções  de cabeçalho, formulário de pesquisa, e outros.
+
+- `<article>`
+
+O **elemento HTML** **`<article>`** representa uma composição independente em um documento, página,  aplicação, ou site, ou que é destinado a ser distribuído de forma  independente ou reutilizável, por exemplo, em sindicação. Este poderia  ser o post de um fórum, um artigo de revista ou jornal, um post de um  blog, um comentário enviado por um usuário, um gadget ou widget  interativos, ou qualquer outra forma de conteúdo independente.
+
+- `<aside>`
+
+O **elemento HTML `<aside>`** representa uma seção de uma página que consiste de conteúdo que é tangencialmente  relacionado ao conteúdo do seu entorno, que poderia ser considerado  separado do conteúdo. Essas seções são, muitas vezes, representadas como barras laterais. Elas muitas vezes contem explicações laterais, como a  definição de um glossário; conteúdo vagamente relacionado, como avisos; a biografia do autor; ou, em aplicações web, informações de perfil ou  links de blogs relacionados.
+
+- `<footer>`
+
+O **elemento HTML `<footer>`** representa um rodapé para o  seu sectioning content (conteúdo de seção) mais próximo ou sectioning root elemento (ou seja, seu parente mais próximo `article`, `aside`, `nav`, `section`, `blockquote`, `body`, `details`, `fieldset`, `figure`, `td`). Normalmente um rodapé contém informações sobre o autor da seção de  dados, direitos autorais ou links para documentos relacionados.
+
+- `<h1>`,`<h2>`,`<h3>`,`<h4>`,`<h5>` e `<h6>`
+
+Os **elementos HTML** **`<h1>`–`<h6>`** representam seis níveis de título de seção. `<h1>` é o nível de seção mais alto e `<h6>` é o mais baixo.
+
